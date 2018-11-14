@@ -1,7 +1,7 @@
-var express = require('express');
+const express = require('express');
 
 module.exports = function(app) {
-  var router = express.Router();
+  const router = express.Router();
 
   router.get('/', function (req, res, next) {
     res.json({status: 'UP'});
@@ -9,6 +9,3 @@ module.exports = function(app) {
 
   app.use("/health", router);
 }
-
-
-

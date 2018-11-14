@@ -1,5 +1,5 @@
 // Uncomment following to enable zipkin tracing, tailor to fit your network configuration:
-// var appzip = require('appmetrics-zipkin')({
+// const appzip = require('appmetrics-zipkin')({
 //     host: 'localhost',
 //     port: 9411,
 //     serviceName:'frontend'

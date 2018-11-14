@@ -1,7 +1,7 @@
-var express = require('express');
+const express = require('express');
 
 module.exports = function(app, basepath) {
-  var router = express.Router();
+  const router = express.Router();
 
 {{#if routes}}
 	{{#each routes}}
@@ -18,4 +18,3 @@ module.exports = function(app, basepath) {
 
 {{/if}}
 }
-
